@@ -107,6 +107,6 @@ public class Agenda {
         agenda.executar();
         agenda.deletar();
         agenda.executar();
-
+        int i = 0;
     }
 }
