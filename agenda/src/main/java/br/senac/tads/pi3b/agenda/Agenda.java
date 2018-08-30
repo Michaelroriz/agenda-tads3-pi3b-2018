@@ -31,7 +31,7 @@ public class Agenda {
                 "");
         return conn;
     }
-
+    //executar comando
     public void executar() {
         String querySql = "SELECT ID, NOME, DTNASCIMENTO FROM PESSOA";
 
