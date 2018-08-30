@@ -106,7 +106,13 @@ public class Agenda {
         Agenda agenda = new Agenda();
         agenda.executar();
         agenda.deletar();
-        agenda.executar();
-        int i = 0;
+        //agenda.executar();
+        int i= 0;
+        while(i<100){
+            for (int j = 0; j < 10; j++) {
+                System.out.println("Nº:" +i);
+            }
+        }
+       
     }
 }
